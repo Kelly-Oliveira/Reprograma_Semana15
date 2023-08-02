@@ -1,0 +1,24 @@
+.sobreContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.fotoPerfil {
+    width: 400px;
+}
+
+.divParagraph{
+    padding: 1rem;
+    background-color: #686AAC;
+    margin: 0 1rem;
+    border: 1px solid #686AAC;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+}
+

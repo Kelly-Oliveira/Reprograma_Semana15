@@ -1,0 +1,26 @@
+.repoContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 70%;
+    gap: 16px;
+    margin: 50px auto 80px auto;
+    height: 100%;
+}
+
+.cardRepo{
+    width: 300px;
+    height: 100px;
+    background-color: var(--light);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 5px 5px #686AAC;
+    border: 1px solid ;
+}
+
+.cardTitle{
+    font-size: 18px;
+    color: #686AAC;
+}
